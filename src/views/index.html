@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="../static/style/nav.css">
+</head>
+
+<body class="pt54">
+
+    <div class="top-menu">
+        <!-- <a href="" class="logo"></a> -->
+        <img src="../static/img/logo.png" alt="" class="logo">
+        <div class="top-menu-right">
+            <div class="bread-menu-btn"><i></i><i></i><i></i></div>
+        </div>
+        <!-- <div class="bread-menu-panel pt54">
+            <a href="">首页</a>
+            <a href="">我的</a>
+        </div> -->
+    </div>
+    <div class="bread-menu-top">
+        <div class="menu-l">
+            <a class="bread-menu-top_item" href="#">Hydro Ag+银离子抗菌系列产品</a>
+            <a class="bread-menu-top_item">Hydro Ag+银离子抗菌膜</a>
+            <a class="bread-menu-top_item">Hydro Ag+银离子抗菌膜</a>
+            <a class="bread-menu-top_item">Hydro Ag+银离子抗菌湿巾&喷雾</a>
+            <a class="bread-menu-top_item">产品一览</a>
+        </div>
+        <div class="menu-r">
+            <a class="bread-menu-top_item">抗菌小贴士</a>
+            <a class="bread-menu-top_item">购买渠道</a>
+        </div>
+    </div>
+
+    <script src="../static/vendor/jquery-3.1.1.min.js"></script>
+    <script>
+        $(function () {
+            $('.bread-menu-btn').on('click', function () {
+                // $(this).toggleClass('active');
+                // $('.top-menu').toggleClass('active');
+                // $('.bread-menu-panel').toggleClass('active');
+                $('.bread-menu-top').toggleClass('active');
+            });
+        })
+    </script>
+</body>
+
+</html>
